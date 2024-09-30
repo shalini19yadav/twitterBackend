@@ -14,13 +14,13 @@ const postSchema=new mongoose.Schema({
         ref:'users',
         required:true
     },
-    createAt:{
-        type:Date,
-        default:date.now()
-    }
+    // createAt:{
+    //     type:Date,
+    //     default:date.now()
+    // }
    
 }
-,{timestamps:true}
+// ,{timestamps:true}
 )
 
 postSchema.add({
