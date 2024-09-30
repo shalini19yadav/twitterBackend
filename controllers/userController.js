@@ -165,7 +165,7 @@ async function sendResetEmail(email,token){
         from:'ashiyaduvanshi23@gmail.com',
         to:email,
         subject:'password reset request',
-        text:`Hello Please click the link below to choose a new password:, \n http://localhost:8080/users/reset-password/${token}`
+        text:`Hello Please click the link below to choose a new password:, \n https://twitterbackend-3w1y.onrender.com/users/reset-password/${token}`
       }
       
 
